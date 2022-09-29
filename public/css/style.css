@@ -1,18 +1,30 @@
-*{
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
     font-family: 'Mukta Mahee', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* !! navbar */
 nav{
+    position: fixed !important;
     height: 15vh;
     display: flex;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: .6s;
+    padding: 2px 50px;
     /* justify-content: space-around; */
 }
 
 .navbar-brand-img{
-    width: 12vw;
+    width: 11vw;
     height: 24vh;
     margin-top: 1vh;
     margin-left: 3vw;
@@ -64,6 +76,81 @@ ul.navbar-nav .nav-item{
 .dropdown:hover .dropdown-menu{
     display: block !important;
 }
+
+nav.sticky {
+    background: #204875dc;
+    backdrop-filter: blur(10px);
+    color: #fff;
+}
+
+nav.sticky ul li a,
+nav.sticky .search input::-webkit-input-placeholder {
+    color: #fff;
+    font-weight: 400;
+}
+
+
+/* !! End Navbar */
+
+/* !! Header Content */
+
+
+.v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.container {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+}
+
+.video-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    overflow: hidden;
+}
+
+.video-header img {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header-overlay {
+    height: 110vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: #000000;
+    opacity: .7;
+}
+
+.header-content {
+    z-index: 2;
+}
+
+.header-content h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+    font-family: 'Great Vibes', cursive;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    display: block;
+    padding-bottom: 2rem;
+}
+
 .dropdown-menu{
     width: 45vh;
     padding: 0 !important;

@@ -12,13 +12,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
     {{-- icon --}}
     <script src="https://kit.fontawesome.com/1271dcdccb.js" crossorigin="anonymous"></script>
-
+    
     <!-- AOS Animated -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -26,7 +26,7 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="" width="30" height="24" class="navbar-brand-img">
@@ -37,10 +37,10 @@
             <div class="navbar navbar-item" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">HOME</a>
+                        <a class="nav-link text-light" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         PROFILE</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">A Thought</a></li>
@@ -49,7 +49,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         OUR PRODUCT</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Certification</a></li>
@@ -59,7 +59,7 @@
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         CLIENT</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Our Client</a></li>
@@ -67,10 +67,10 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">BLOG</a>
+                        <a class="nav-link text-light" aria-current="page" href="#">BLOG</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         DOCUMENT</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">E-Flyer</a></li>
@@ -78,17 +78,68 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">CONTACT</a>
+                        <a class="nav-link text-light" aria-current="page" href="#">CONTACT</a>
                     </li>
                 </ul>
             </div>
             <div class="nav-socmed">
-                <a href=""><i class="fa-brands fa-youtube" style="color: red"></i></a>
-                <a href=""><i class="fa-brands fa-linkedin" style="color: blue"></i></a>
-                <a href=""><i class="fa-brands fa-instagram" style="color: red"></i></a>
+                <i class="fa-brands fa-youtube" style="color: red"></i>
+                <i class="fa-brands fa-linkedin" style="color: blue"></i>
+                <i class="fa-brands fa-instagram" style="color: red"></i>
             </div>
         </div>
     </nav>
+
+      <header class="v-header container">
+        <div class="video-header">
+          <img src="{{ asset('town.jpg') }}" alt="">
+        </div>
+
+        <div class="header-overlay">
+        <h6 class="text-white text-end mt-5" style="z-index: 3; letter-spacing: 1px;position: relative;top:7rem;font-size:15px; float: right;right: 13rem">
+            Management is doing the things right,</br>People is doing the right things.
+          </h6></div>
+        <div class="header-content mt-5">
+          <img src="{{ asset('btn-red.png') }}" alt="" width="40px" style="position: relative; right: 8rem;top: 12rem;">
+          <h2 style="letter-spacing: 5px;font-size:32px;font-weight:700;margin-top:12rem;left:13.5rem" class="position-relative">PT. INSPIRY INDONESIA KONSULTAN</h2>
+          <h4 style="letter-spacing: 6px;font-size:17px;left:13.5rem" class="position-relative">YOUR TRUSTED PARTNER</h4>
+          {{-- logo 1 --}}
+          <div class="logo-1 position-relative" style="left: 15rem">
+            <div class="row">
+            <div class="col">
+              <img src="{{ asset('gaslogo.png') }}" alt="" style="position: relative;left:8rem">
+            </div>
+            <div class="col">
+              <p style="font-size:15px;font-weight:600;" class="text-start mt-3">GAKESLAB MEMBERS
+              </br>
+                No. 921/GAKESLAB/JABAR
+              </p>
+            </div>
+            </div>
+          </div>
+
+          {{-- logo 2 --}}
+          <div class="logo-1 position-relative" style="left: 15rem;margin-top:-2rem;">
+            <div class="row">
+            <div class="col">
+              <img src="{{ asset('isologo.png') }}" alt="" style="position: relative;left:8rem">
+            </div>
+            <div class="col">
+              <p style="font-size:15px;font-weight:600;" class="text-start mt-3">ISO 9001-2015
+              </br>
+              CERTIFIED
+              </p>
+            </div>
+            </div>
+          </div>
+
+          <div class="circlenyaya position-relative" style="display: flex;gap: .4rem;left:35rem">
+          <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
+          <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
+          <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
+          </div>
+        </div>
+      </header>
 
     <div class="container-fluid">
         @yield('content')
@@ -97,8 +148,9 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/4d8cfff1ae.js" crossorigin="anonymous"></script>
+    
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -110,6 +162,13 @@
     <script>
         AOS.init();
     </script>
+     <script type="text/javascript">
+        //javascript for navigation bar effect on scroll
+        window.addEventListener("scroll", function () {
+          var nav = document.querySelector("nav");
+          nav.classList.toggle('sticky', window.scrollY > 0);
+        });
+      </script>
 </body>
 </html>
 
