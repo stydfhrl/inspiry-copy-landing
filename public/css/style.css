@@ -67,11 +67,14 @@ ul.navbar-nav .nav-item{
 .nav-socmed .fa-brands{
     font-size: 19px;
 }
+.nav-socmed a:hover .fa-brands{
+    transition: .3s;
+    color: coral !important;
+    scale: 1.2;
+}
 
 .dropdown:hover .dropdown-menu{
     display: block !important;
-    transition: 2s;
-    transform: translateY(2vh);
 }
 
 nav.sticky {
@@ -147,3 +150,23 @@ nav.sticky .search input::-webkit-input-placeholder {
     display: block;
     padding-bottom: 2rem;
 }
+
+.dropdown-menu{
+    width: 45vh;
+    padding: 0 !important;
+    background-image: linear-gradient(rgb(46, 43, 43), rgb(8, 8, 8)) !important;
+    border: 1px solid rgb(230, 229, 229) !important;
+}
+.dropdown-menu li a{
+    color: rgb(219, 218, 218) !important;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu li a:hover{
+    transition: .5s;
+    background-color: rgb(160, 160, 160);
+    color: rgb(70, 64, 64) !important;
+}
+
+/* !! End Navbar */

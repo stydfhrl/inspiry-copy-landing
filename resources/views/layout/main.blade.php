@@ -83,7 +83,7 @@
                 </ul>
             </div>
             <div class="nav-socmed">
-                <i class="fab fa-youtube" style="color: red"></i>
+                <i class="fa-brands fa-youtube" style="color: red"></i>
                 <i class="fa-brands fa-linkedin" style="color: blue"></i>
                 <i class="fa-brands fa-instagram" style="color: red"></i>
             </div>
