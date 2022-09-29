@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+/* !! navbar */
+nav{
+    height: 15vh;
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.navbar-brand-img{
+    width: 12vw;
+    height: 24vh;
+    margin-top: 1vh;
+    margin-left: 3vw;
+}
+.navbar-brand{
+    margin-top: 15vh;
+    margin-left: 1vw;
+}
+
+.navbar-item{
+    display: flex;
+    width: 75%;
+    margin-right: 3vw;
+    margin-left: 0;
+}
+ul.navbar-nav{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    /* margin-left: 20vh; */
+}
+ul.navbar-nav .nav-item{
+    font-size: 18px;
+    font-weight: 500;
+}
+.navbar-nav li a:hover{
+    transition: .3s;
+    color: red !important; 
+}
+.nav-item{
+    justify-content: space-between;
+}
+
+.nav-socmed{
+    display: flex;
+    justify-content: space-evenly;
+    width: 15vw;
+    margin-right: 2vw;
+}
+.nav-socmed .fa-brands{
+    font-size: 19px;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block !important;
+    transition: 2s;
+    transform: translateY(2vh);
+}
+/* !! End Navbar */
