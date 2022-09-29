@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
@@ -83,16 +83,22 @@
                 </ul>
             </div>
             <div class="nav-socmed">
-                <i class="fa-brands fa-youtube" style="color: red"></i>
-                <i class="fa-brands fa-linkedin" style="color: blue"></i>
-                <i class="fa-brands fa-instagram" style="color: red"></i>
+                <a href="">
+                    <i class="fa-brands fa-youtube" style="color: red"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin" style="color: blue"></i>
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram" style="color: red"></i>
+                </a>
             </div>
         </div>
     </nav>
 
-      <header class="v-header container">
+    <header class="v-header container">
         <div class="video-header">
-          <img src="{{ asset('town.jpg') }}" alt="">
+            <img src="{{ asset('town.jpg') }}" alt="">
         </div>
 
         <div class="header-overlay">
@@ -139,9 +145,9 @@
           <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
           </div>
         </div>
-      </header>
+    </header>
 
-    <div class="container-fluid">
+    <div class="section">
         @yield('content')
     </div>
 
@@ -149,7 +155,6 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/4d8cfff1ae.js" crossorigin="anonymous"></script>
     
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -162,13 +167,13 @@
     <script>
         AOS.init();
     </script>
-     <script type="text/javascript">
+    <script type="text/javascript">
         //javascript for navigation bar effect on scroll
         window.addEventListener("scroll", function () {
-          var nav = document.querySelector("nav");
-          nav.classList.toggle('sticky', window.scrollY > 0);
+        var nav = document.querySelector("nav");
+        nav.classList.toggle('sticky', window.scrollY > 0);
         });
-      </script>
+    </script>
 </body>
 </html>
 
