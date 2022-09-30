@@ -213,7 +213,21 @@ width: 40vh;
     font-size: 15px;
     color: rgb(231, 231, 231);
 }
+
 /* !! End Gallery */
+
+
+/* !! Container Our-team */
+.container-our-team{
+    background-color: rgb(145, 143, 143);
+    height: 120vh;
+}
+
+.our-team-title{
+    padding-top: 8rem;
+    letter-spacing: 5px;
+}
+/* !! */
 
 
 /* !! Container Handshake */
@@ -222,11 +236,11 @@ width: 40vh;
     background-image: url("/img/handshake.jpg");
     background-size: cover;
     background-attachment: fixed;
-    height: 87vh;
+    height: 93vh;
 }
 .handshake-overlay{
     width: 100%;
-    height: 87vh;
+    height: 93vh;
     background: rgba(0, 0, 0, 0.5);
     background-size: cover;
 }
@@ -263,9 +277,4 @@ width: 40vh;
     background-color: white;
 }
 /* !! End Container Handshake */
-
-/* !! Culture and soul */
-
-/* !! End culture and soul */
-
 
