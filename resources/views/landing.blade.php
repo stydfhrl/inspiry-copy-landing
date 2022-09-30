@@ -184,10 +184,130 @@
 <div class="container-fluid container-culture">
     <div class="culture">
         <div class="culture-title">
-            
+            <h3>OUR CULTURE & SOUL</h3>
         </div>
-        <div class="culture-card">
-            
+        <div class="culture-card-container">
+            <div class="culture-card">
+                <div class="culture-card-img">
+                    <img class="culture-img1" src="{{ asset ('img/respect.png')}}" alt="">
+                </div>
+                <div class="culture-card-content">
+                    <h3>RESPECT</h3>
+                    <p>We value everyone and treat people with dignity and professionalism</p>
+                </div>
+            </div>
+
+            <div class="culture-card">
+                <div class="culture-card-img">
+                    <img class="culture-img1" src="{{ asset ('img/integrity.png')}}" alt="">
+                </div>
+                <div class="culture-card-content">
+                    <h3>INTEGRITY</h3>
+                    <p>We build trust through responsible actions and honest relationships</p>
+                </div>
+            </div>
+
+            <div class="culture-card">
+                <div class="culture-card-img">
+                    <img class="culture-img1" src="{{ asset ('img/innovation.png')}}" alt="">
+                </div>
+                <div class="culture-card-content">
+                    <h3>INNOVATION</h3>
+                    <p>We value original thinking, a passion for attacking difficult challenges and openly giving and receiving thoughtful feedback.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product">
+        <div class="product-header">
+            <div class="product-title">
+                <h3>Our</h3>
+                <h3>Product</h3>
+            </div>
+            <hr>
+        </div>
+
+        <div class="product-card-container">
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/accepted.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>CERTIFICATION</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/training.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>TRAINING <br> PROGRAM</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/fda.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>FDA <br> PROGRAM</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/insfenger.png')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>INSFENGER <br> (CONFERENCE <br> ARRANGER)</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/opspiry.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>OPSPIRY <br> (OPERATING <br> MANAGEMENT <br> SYSTEM)</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/legspiry.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>LEGSPIRY <br> (LEGAL <br> CONSULTANT)</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/company.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>COMPANY <br> LICENCE</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/imagery.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>IMAGERY <br> (BRAND <br> BUILDER)</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/inssearch.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>INSSEARCH <br> (HEAD <br> HUNTER)</h6>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-card-img">
+                    <img class="product-img1" src="{{ asset ('img/instrainment.jpg')}}" alt="">
+                </div>
+                <div class="product-card-content">
+                    <h6>INSTRAINMENT <br> (TRAINING & <br> ENTERTAINMENT)</h6>
+                </div>
+            </div>
         </div>
     </div>
 </div>
