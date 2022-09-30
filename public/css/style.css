@@ -312,8 +312,8 @@ width: 40vh;
     margin-top: 15vh;
 }
 .img-team{
-    -webkit-transform: translateY(1vh);
-    -webkit-transition: .7s;
+    transform: translateY(1vh);
+    transition: .7s;
 }
 .img-team:hover{
     cursor: pointer;
