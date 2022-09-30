@@ -149,6 +149,10 @@ nav.sticky .search input::-webkit-input-placeholder {
     padding-bottom: 2rem;
 }
 
+.dropdown-toggle::after {
+    content: none !important;
+}
+
 .dropdown-menu{
     width: 45vh;
     padding: 0 !important;
@@ -212,4 +216,7 @@ width: 40vh;
     font-size: 15px;
     color: rgb(231, 231, 231);
 }
-/* !! End Gallery */
+
+.about-content {
+    margin-top: 640vh;
+}
