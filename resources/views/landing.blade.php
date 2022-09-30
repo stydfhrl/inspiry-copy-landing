@@ -77,7 +77,6 @@
     </div>
 </div>
 
-
 <div class="container-fluid container-about-us text-end fw-bold" style="margin-top: 2rem;">
     <h1 style="font-size: 45px;letter-spacing: 8px;color:red;text-shadow: 2px 1px #ff0000da">ABOUT</h1>
     <h1 style="font-size: 50px;letter-spacing: 8px;text-shadow: 2px 1px #2c2c2cda">US</h1>
@@ -118,6 +117,14 @@
         <p style="letter-spacing: -.3px;font-weight:100;font-size:18px;margin-top:-1rem">always pushing our customer service standards and providing the right solution for your business</br></p>
         <p style="letter-spacing: -.1px;font-weight:100;font-size:18px;margin-top:-1rem">needs.</br></p>
     </div>
-  </div>
+</div>
+
+<section class="section-handshake">
+    <div class="container-fluid container-handshake">
+        <div class="handshake-content">
+            <h1>your</h1>
+        </div>
+    </div>
+</section>
 
 @endsection

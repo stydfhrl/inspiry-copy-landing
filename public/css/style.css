@@ -68,11 +68,28 @@ ul.navbar-nav .nav-item{
 .nav-socmed a:hover .fa-brands{
     transition: .3s;
     color: coral !important;
-    scale: 1.2;
+    scale: 1.1;
 }
 
 .dropdown:hover .dropdown-menu{
     display: block !important;
+}
+.dropdown-menu{
+    width: 45vh;
+    padding: 0 !important;
+    background-image: linear-gradient(rgb(46, 43, 43), rgb(8, 8, 8)) !important;
+    border: 1px solid rgb(230, 229, 229) !important;
+}
+.dropdown-menu li a{
+    color: rgb(219, 218, 218) !important;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+}
+.dropdown-menu li a:hover{
+    transition: .5s;
+    background-color: rgb(160, 160, 160);
+    color: rgb(70, 64, 64) !important;
 }
 
 nav.sticky {
@@ -86,9 +103,8 @@ nav.sticky .search input::-webkit-input-placeholder {
     color: #fff;
     font-weight: 400;
 }
-
-
 /* !! End Navbar */
+
 
 /* !! Header Content */
 
@@ -216,3 +232,15 @@ width: 40vh;
     font-size: 15px;
     color: rgb(231, 231, 231);
 }
+
+/* !! End Gallery */
+
+
+/* !! Container Handshake */
+.section-handshake{
+    background-image: url("/img/handshake.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+/* !! End Container Handshake */
