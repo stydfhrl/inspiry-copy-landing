@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -102,48 +106,49 @@
         </div>
 
         <div class="header-overlay">
-        <h6 class="text-white text-end mt-5" style="z-index: 3; letter-spacing: 1px;position: relative;top:7rem;font-size:15px; float: right;right: 13rem">
+            <h6 class="text-white text-end mt-5" style="z-index: 3; letter-spacing: 1px;position: relative;top:7rem;font-size:15px; float: right;right: 13rem; text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.733);">
             Management is doing the things right,</br>People is doing the right things.
-          </h6></div>
+            </h6>
+        </div>
         <div class="header-content mt-5">
-          <img src="{{ asset('btn-red.png') }}" alt="" width="40px" style="position: relative; right: 8rem;top: 12rem;">
-          <h2 style="letter-spacing: 5px;font-size:32px;font-weight:700;margin-top:12rem;left:13.5rem" class="position-relative">PT. INSPIRY INDONESIA KONSULTAN</h2>
-          <h4 style="letter-spacing: 6px;font-size:17px;left:13.5rem" class="position-relative">YOUR TRUSTED PARTNER</h4>
-          {{-- logo 1 --}}
-          <div class="logo-1 position-relative" style="left: 15rem">
+            <img src="{{ asset('btn-red.png') }}" alt="" width="40px" style="position: relative; right: 8rem;top: 12rem;">
+            <h2 style="letter-spacing: 5px;font-size:32px;font-weight:700;margin-top:12rem;left:13.5rem; text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.733);" class="position-relative">PT. INSPIRY INDONESIA KONSULTAN</h2>
+            <h4 style="letter-spacing: 6px;font-size:17px;left:13.5rem" class="position-relative">YOUR TRUSTED PARTNER</h4>
+            {{-- logo 1 --}}
+            <div class="logo-1 position-relative" style="left: 15rem">
+            <div class="row">
+                <div class="col">
+                    <img src="{{ asset('gaslogo.png') }}" alt="" style="position: relative;left:8rem">
+                </div>
+                <div class="col">
+                    <p style="font-size:15px;font-weight:600;" class="text-start mt-3">GAKESLAB MEMBERS
+                        </br>
+                        No. 921/GAKESLAB/JABAR
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        {{-- logo 2 --}}
+        <div class="logo-1 position-relative" style="left: 15rem;margin-top:-2rem;">
             <div class="row">
             <div class="col">
-              <img src="{{ asset('gaslogo.png') }}" alt="" style="position: relative;left:8rem">
+                <img src="{{ asset('isologo.png') }}" alt="" style="position: relative;left:8rem">
             </div>
             <div class="col">
-              <p style="font-size:15px;font-weight:600;" class="text-start mt-3">GAKESLAB MEMBERS
-              </br>
-                No. 921/GAKESLAB/JABAR
-              </p>
+                <p style="font-size:15px;font-weight:600;" class="text-start mt-3">ISO 9001-2015
+                    </br>
+                    CERTIFIED
+                </p>
             </div>
             </div>
-          </div>
+        </div>
 
-          {{-- logo 2 --}}
-          <div class="logo-1 position-relative" style="left: 15rem;margin-top:-2rem;">
-            <div class="row">
-            <div class="col">
-              <img src="{{ asset('isologo.png') }}" alt="" style="position: relative;left:8rem">
+        <div class="circlenyaya position-relative" style="display: flex;gap: .4rem;left:35rem">
+            <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
+            <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
+            <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
             </div>
-            <div class="col">
-              <p style="font-size:15px;font-weight:600;" class="text-start mt-3">ISO 9001-2015
-              </br>
-              CERTIFIED
-              </p>
-            </div>
-            </div>
-          </div>
-
-          <div class="circlenyaya position-relative" style="display: flex;gap: .4rem;left:35rem">
-          <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
-          <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
-          <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:white"></div>
-          </div>
         </div>
     </header>
 

@@ -76,4 +76,12 @@
         </div>
     </div>
 </div>
+
+<section class="section-handshake">
+    <div class="container-fluid container-handshake">
+        <div class="handshake-content">
+            <h1>your</h1>
+        </div>
+    </div>
+</section>
 @endsection
