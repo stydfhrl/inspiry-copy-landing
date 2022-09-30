@@ -71,6 +71,10 @@ ul.navbar-nav .nav-item{
     scale: 1.1;
 }
 
+.dropdown-toggle::after {
+    content: none !important;
+}
+
 .dropdown:hover .dropdown-menu{
     display: block !important;
 }
@@ -164,29 +168,6 @@ nav.sticky .search input::-webkit-input-placeholder {
     display: block;
     padding-bottom: 2rem;
 }
-
-.dropdown-toggle::after {
-    content: none !important;
-}
-
-.dropdown-menu{
-    width: 45vh;
-    padding: 0 !important;
-    background-image: linear-gradient(rgb(46, 43, 43), rgb(8, 8, 8)) !important;
-    border: 1px solid rgb(230, 229, 229) !important;
-}
-.dropdown-menu li a{
-    color: rgb(219, 218, 218) !important;
-    height: 7vh;
-    display: flex;
-    align-items: center;
-}
-.dropdown-menu li a:hover{
-    transition: .5s;
-    background-color: rgb(160, 160, 160);
-    color: rgb(70, 64, 64) !important;
-}
-
 /* !! End Header */
 
 
@@ -282,5 +263,9 @@ width: 40vh;
     background-color: white;
 }
 /* !! End Container Handshake */
+
+/* !! Culture and soul */
+
+/* !! End culture and soul */
 
 

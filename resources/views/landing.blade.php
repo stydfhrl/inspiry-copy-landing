@@ -77,9 +77,9 @@
     </div>
 </div>
 
-<div class="container-fluid container-about-us text-end fw-bold" style="margin-top: 7vh; height:128vh;">
-    <h1 style="font-size: 45px;letter-spacing: 8px;color:red;text-shadow: 2px 1px #ff0000da">ABOUT</h1>
-    <h1 style="font-size: 50px;letter-spacing: 8px;text-shadow: 2px 1px #2c2c2cda">US</h1>
+<div class="container-fluid container-about-us text-end fw-bold" style="margin-top: 7vh; height:150vh;">
+    <h1 style="font-size: 45px;letter-spacing: 8px;color:red;text-shadow: 2px 1px #ff0000da; font-weight:600; text-shadow:1px 1px 2px black">ABOUT</h1>
+    <h1 style="font-size: 50px;letter-spacing: 8px;text-shadow: 2px 1px #2c2c2cda; font-weight:600; text-shadow:1px 1px 2px black">US</h1>
     <div class="circlenyaya position-relative mt-4" style="display: flex;gap: .6rem;float:right; margin-right:1rem">
         <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:rgb(0, 0, 0)"></div>
         <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:rgb(0, 0, 0)"></div>
@@ -129,6 +129,17 @@
                 <div class="dot-1"></div>
                 <div class="dot-1"></div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid container-culture">
+    <div class="culture">
+        <div class="culture-title">
+            
+        </div>
+        <div class="culture-card">
+            
         </div>
     </div>
 </div>
