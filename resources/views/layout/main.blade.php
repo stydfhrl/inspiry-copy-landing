@@ -45,7 +45,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        PROFILE</a>
+                        PROFILE <i class="fa-solid fa-chevron-down" style="font-size:14px"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">A Thought</a></li>
                             <li><a class="dropdown-item" href="#">Our Dream</a></li>
@@ -54,7 +54,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        OUR PRODUCT</a>
+                        OUR PRODUCT <i class="fa-solid fa-chevron-down" style="font-size:14px"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Certification</a></li>
                             <li><a class="dropdown-item" href="#">Training Program</a></li>
@@ -64,7 +64,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        CLIENT</a>
+                        CLIENT <i class="fa-solid fa-chevron-down" style="font-size:14px"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Our Client</a></li>
                             <li><a class="dropdown-item" href="#">Recommendation Letter</a></li>
@@ -75,7 +75,7 @@
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        DOCUMENT</a>
+                        DOCUMENT <i class="fa-solid fa-chevron-down" style="font-size:14px"></i></a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">E-Flyer</a></li>
                             <li><a class="dropdown-item" href="#">FAQs CDAKB</a></li>
