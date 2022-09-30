@@ -133,6 +133,54 @@
     </div>
 </div>
 
+<div class="container-fluid container-our-team">
+    <div class="our-team-title">
+        <h1>OUR TEAM</h1>
+    </div>
+
+    <div class="our-team-img">
+        <div class="img-1 img-hover">
+            <img class="img-team" src="{{ asset('img/Pak-Lukman.png') }}" alt="" width="210px" style="top: -12rem;">
+            <div class="textnya mt-5">
+                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Lukmanul Hakim</h4>
+                <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%;text-align:center"> OPERATIONAL DIRECTOR</p>
+            </div>
+        </div>
+
+        <div class="img-2 img-hover">
+            <img class="img-team" src="{{ asset('img/Pak-Sony.png') }}" alt="" width="210px" style="top: -12rem;">
+            <div class="textnya mt-5">
+                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Marsono Mardi</h4>
+                <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%">PROGRAM DEVELOPMENT <br> DIRECTOR</p>
+            </div>
+        </div>
+
+        <div class="img-3 img-hover">
+            <img class="img-team" src="{{ asset('img/Pak-Asrul.png') }}" alt="" width="210px" style="top: -12rem;">
+            <div class="textnya mt-5">
+                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Asrul Sani</h4>
+                <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%;text-align:center">PRESIDENT COMMISIONER</p>
+            </div>
+        </div>
+
+        <div class="img-4 img-hover">
+            <img class="img-team" src="{{ asset('img/Pak-Tanto.png') }}" alt="" width="210px" style="top: -12rem;">
+            <div class="textnya mt-5">
+                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Hartanto</h4>
+                <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%;text-align:center">PRESIDENT DIRECTOR</p>
+            </div>
+        </div>
+
+        <div class="img-5 img-hover">
+            <img class="img-team" src="{{ asset('img/Pak-Pri.png') }}" alt="" width="210px" style="top: -12rem;">
+            <div class="textnya mt-5">
+                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Supriya Lelana</h4>
+                <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%;text-align:center">BOARD OF COMMISSIONER</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container-fluid container-culture">
     <div class="culture">
         <div class="culture-title">
@@ -142,55 +190,6 @@
             
         </div>
     </div>
-
-
-<div class="container-fluid container-our-team">
-    <div class="our-team-title d-flex">
-        <h1 class="text-white fw-bold position-relative" style="font-size: 55px;text-shadow:1px 3px rgba(0, 0, 0, 0.534);padding-left: 31rem; ">OUR </h1>
-        <h1 class="text-white fw-bold position-relative ms-4" style="font-size: 55px;text-shadow:1px 3px rgba(0, 0, 0, 0.534);">TEAM</h1>
-    </div>
-
-    <div class="img-1 position-absolute text-white" style="padding-left: 6rem;padding-top: 2rem">
-        <img src="{{ asset('img/Pak-Lukman.png') }}" alt="" class="paklukman" width="210px" style="top: -12rem;">
-        <div class="textnya mt-5">
-        <h4 style="text-shadow:2px 1px rgb(59, 59, 59);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Lukmanul Hakim</h4>
-        <p style="font-size:15px;margin-left:1.1rem;letter-spacing: 1px;">OPERATIONAL DIRECTOR</p>
-        </div>
-    </div>
-
-    <div class="img-2 position-absolute text-white" style="padding-left: 21rem;padding-top: 5rem">
-        <img src="{{ asset('img/Pak-Sony.png') }}" alt="" style="" width="210px" style="top: -12rem;">
-        <div class="textnya mt-5">
-        <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Marsono Mardi</h4>
-        <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:80%;text-align:center">PROGRAM DEVELOPMENT DIRECTOR</p>
-        </div>
-    </div>
-
-    <div class="img-3 position-absolute text-white" style="padding-left: 34rem;padding-top: -5rem">
-        <img src="{{ asset('img/Pak-Asrul.png') }}" alt="" style="" width="230px" style="top: -12rem;">
-        <div class="textnya mt-5">
-        <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:3.5rem;letter-spacing: 2.4px;font-weight:600">Asrul Sani</h4>
-        <p style="font-size:15px;margin-left: .2rem;letter-spacing: 1px;text-align:center">PRESIDENT COMMISSIONER</p>
-        </div>
-    </div>
-
-    
-    <div class="img-4 position-absolute text-white" style="padding-left:49rem;padding-top: 5rem">
-        <img src="{{ asset('img/Pak-Tanto.png') }}" alt="" style="" width="220px" style="top: -12rem;">
-        <div class="textnya mt-5">
-        <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:3.5rem;letter-spacing: 2.4px;font-weight:600">Hartanto</h4>
-        <p style="font-size:15px;margin-left:2.5rem;letter-spacing: 1px;">PRESIDENT DIRECTOR</p>
-        </div>
-    </div>
-
-    <div class="img-5 position-absolute text-white" style="padding-left:62rem;padding-top: 2rem">
-        <img src="{{ asset('img/Pak-Pri.png') }}" alt="" style="" width="220px" style="top: -12rem;">
-        <div class="textnya mt-5">
-        <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:2.5rem;letter-spacing: 1.5px;font-weight:600">Supriya Lelana</h4>
-        <p style="font-size:15px;margin-left:2rem;letter-spacing: 1px;">BOARD OF COMMISSIONER</p>
-        </div>
-    </div>
-
 </div>
 
 @endsection

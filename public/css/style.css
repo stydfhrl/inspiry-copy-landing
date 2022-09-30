@@ -4,6 +4,7 @@
     font-family: 'Mukta Mahee', sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    cursor: default;
 }
 
 /* !! navbar */
@@ -217,19 +218,6 @@ width: 40vh;
 /* !! End Gallery */
 
 
-/* !! Container Our-team */
-.container-our-team{
-    background-color: rgb(145, 143, 143);
-    height: 120vh;
-}
-
-.our-team-title{
-    padding-top: 8rem;
-    letter-spacing: 5px;
-}
-/* !! */
-
-
 /* !! Container Handshake */
 .container-handshake{
     padding: 0 !important;
@@ -278,3 +266,58 @@ width: 40vh;
 }
 /* !! End Container Handshake */
 
+
+/* !! Container Our-team */
+.container-our-team{
+    background-color: rgb(145, 143, 143);
+    height: 115vh;
+}
+.our-team-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    letter-spacing: 5px;
+}
+.our-team-title h1{
+    color: white;
+    font-weight: bold;
+    position: relative;
+    font-size: 55px;
+    text-shadow:1px 3px 3px rgba(0, 0, 0, 0.534);
+    margin-top: -10vh;
+}
+.our-team-img{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.our-team-img .img-1,.img-2,.img-3,.img-4,.img-5{
+    /* position: absolute; */
+    color: white;
+}
+.our-team-img .img-2 .img-team{
+    display: flex;
+    justify-content: center;
+}
+.our-team-img .img-2 .textnya{
+    text-align: center;
+}
+.our-team-img .img-1,.img-5{
+    margin-top: 5vh;
+}
+.our-team-img .img-2,.img-4{
+    margin-top: 15vh;
+}
+.img-team{
+    -webkit-transform: translateY(1vh);
+    -webkit-transition: .7s;
+}
+.img-team:hover{
+    cursor: pointer;
+    transform: translateY(-1vh);
+    transition: .7s;
+}
+/* !! End Our-team */
