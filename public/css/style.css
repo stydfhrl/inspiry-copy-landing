@@ -98,8 +98,8 @@ ul.navbar-nav .nav-item{
 }
 
 nav.sticky {
-    background: black;
-    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(90px);
     color: #fff;
 }
 
