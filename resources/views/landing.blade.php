@@ -89,7 +89,7 @@
     <div class="imgleft" style="position: relative;top:-7rem; right:2rem">
         <img src="{{ asset('circle-pink.png') }}" alt="" width="800px" >
         <img src="{{ asset('circle-red.png') }}" alt="" style="position:relative;right:40rem">
-        <img src="img/logo.png" alt="" width="300px" style="position: relative;top:-34rem;right: 48rem">
+        <img src="img/logo.png" alt="" width="300px" class="logo-about" style="position: relative;top:-34rem;right: 48rem">
     </div>
 
     <div class="text-right text-start position-relative" style="float: right;top:-64rem;">
@@ -312,4 +312,140 @@
     </div>
 </div>
 
+<div class="container-fluid container-solution">
+    <div class="solution-overlay">
+    <div class="all-solution position-relative" style="padding-left:3.5rem">
+            <div class="text-solution pt-5">
+            <h1 class="text-white" style="font-size: 67px;font-weight:600;text-shadow:2px 3px #000">OUR</h1>
+            <h1 style="color: red;font-size: 50px;font-weight:600;text-shadow:2px 3px #000;letter-spacing: 5px;margin-top:-1.5rem">SOLUTION</h1>
+            </div>
+            <div class="solution-circle">
+                <div class="circle-1"></div>
+                <div class="circle-1"></div>
+                <div class="circle-1"></div>
+            </div>
+
+            <div class="content-solution d-flex" style="gap: 4rem;">
+            <div class="text-sulution-1 mt-5 text-white" style="font-size: 17px;">
+                <p style="letter-spacing: .1px;">INSPIRY is here to help entrepreneurs, business owners, and company leaders to maximize all business management</p><p style="margin-top: -1rem"> performance, design and map out the right business strategy, and ultimately be able to improve the company’s financial </p> <p style="margin-top: -1rem;letter-spacing: .9px;">on an ongoing basis. We provide you with all the answers, and strategies and solutions that can bring your </p> <p style="margin-top: -1rem"> company and business to grow faster and better, and are fully scalable and controllable.</p>
+
+                <p>With the increase in the company’s internal competence and the ability to manage all company resources accompanied by </p> <p style="letter-spacing: .2px; margin-top: -1rem">and speed in responding to the company’s external conditions. Our clients are able to take their company and business</p><p style="margin-top: -1rem">to a level that is more advanced than its previous position and excel in business competition. Client companies also have a</p><p style="margin-top: -1rem">series of solutions and strategies, especially dealing with recession, crisis and decline successfully</p>
+            </div>
+
+            <div class="btn-contact text-white">
+                <div class="title-btn" style="padding: 10px 30px;">
+                    <i class="fa-solid fa-phone-volume" style="transform: rotate(-30deg)"></i>
+                     + 62 21 22178061
+                </div>
+
+
+            </div>
+        </div>
+        
+
+        <div class="our-client text-white d-flex text-center" style="width: 83rem;background:rgba(0, 0, 0, 0.5);height:300px;margin-left: -3rem;margin-top:5rem">
+            <div class="column" style="width: 380px;height:220px;background:rgba(255, 255, 255, 0.137);margin-left: 4.5rem;margin-top:2rem">
+            <div class="textnya" style="margin-top:4rem">
+                <h1>150 +</h1>
+                <p>OUR CLIENT</p>
+            <div class="column-line">
+            </div>
+            </div>
+        </div>
+
+        <div class="column" style="width: 380px;height:220px;background:rgba(255, 255, 255, 0.137);margin-left: 1.4rem;margin-top:2rem">
+            <div class="textnya" style="margin-top:4rem">
+                <h1>6</h1>
+                <p>PARTNERSHIP</p>
+            <div class="column-line"></div>
+            </div>
+        </div>
+
+        <div class="column" style="width: 380px;height:220px;background:rgba(255, 255, 255, 0.137);margin-left: 1.4rem;margin-top:2rem">
+            <div class="textnya" style="margin-top:4rem">
+                <h1>20 +</h1>
+                <p>RECOMMENDATION LETTER</p>
+            </div>
+            <div class="column-line">
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/Screen-Shot-2022-02-25-at-07.56.13-235x300.png" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/Screen-Shot-2022-02-25-at-07.56.35-233x300.png" alt="" style="margin-left: -1rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/Screen-Shot-2022-02-25-at-07.56.51-218x300.png" alt="" style="margin-left: -2rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/Screen-Shot-2022-02-25-at-07.57.06-247x300.png" alt="" style="margin-left: -3rem;"></div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/Screen-Shot-2022-02-25-at-07.57.19-1-215x300.png" alt="" style="margin-left: -4rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/Screen-Shot-2022-02-25-at-07.57.41-1-212x300.png" alt="" style="margin-left: -3rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/Screen-Shot-2022-02-25-at-07.57.59-1-212x300.png" alt="" style="margin-left: -3rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/WhatsApp-Image-2022-02-24-at-17.40.11-1-1-1-197x300.jpeg" alt="" style="margin-left: -3rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/WhatsApp-Image-2022-02-24-at-17.40.11-2-204x300.jpeg" alt="" style="margin-left: -3rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/WhatsApp-Image-2022-02-24-at-17.40.12-1-200x300.jpeg" alt="" style="margin-left: -3rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-02-at-14.40.42-212x300.png" alt="" style="margin-left: -3rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-06-at-14.43.40-216x300.png" alt="" style="margin-left: -3rem;">
+        </div>
+        <div class="swiper-slide">
+            <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/06/Screen-Shot-2022-06-06-at-15.55.41-212x300.png" alt="" style="margin-left: -3rem;">
+        </div>
+        </div>
+        {{-- <div class="swiper-pagination"></div> --}}
+    </div>
+
+    <div class="container-fluid our-partner-logo mt-5 mb-5">
+        <h1>Our Partner</h1>
+        <div class="our-partner-img mt-5" style="display: flex; justify-content:center;gap:2rem">
+            <div class="colomn-img-our">
+                <img src="img/geslab.png" alt="" width="150px">
+                <p class="text-center mt-4">Association of</br>Indonesian medical</br>and laboratory</br>equipment</br>companies</p>
+            </div>
+            <div class="colomn-img-our">
+                <img src="img/hostpital.jpeg" alt="" width="150px">
+                <p class="text-center mt-4">Indonesian Hospital</br> Association</p>
+            </div>
+            <div class="colomn-img-our">
+                <img src="img/pdhi.png" alt="" width="150px">
+                <p class="text-center mt-4">Indonesian</br>Veterinary</br>Association</p>
+            </div>
+            <div class="colomn-img-our">
+                <img src="img/ui.png" alt="" width="150px">
+                <p class="text-center mt-4">Faculty of</br>Engineering -</br>Indonesia University</p>
+            </div>
+            <div class="colomn-img-our">
+                <img src="img/ipwija.png" alt="" width="150px">
+                <p class="text-center mt-4">Institute of</br>Economic Science</br>IPWIJA</p>
+            </div>
+            <div class="colomn-img-our" style="margin-top: 2rem">
+                <img src="img/idbi.webp" alt="" width="150px">
+                <p class="text-center mt-4">Indonesian Business</br>Digital Institute</p>
+            </div>
+        </div>
+            <div class="inline"></div>
+    </div>
 @endsection
