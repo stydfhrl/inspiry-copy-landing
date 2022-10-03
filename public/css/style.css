@@ -47,6 +47,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     transition: .6s;
+    background: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(90px);
+    color: #fff;
     padding: 2px 50px;
     /* justify-content: space-around; */
 }
@@ -125,7 +128,7 @@ ul.navbar-nav .nav-item{
     background-color: rgb(160, 160, 160);
     color: rgb(70, 64, 64) !important;
 }
-
+/* 
 nav.sticky {
     background: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(90px);
@@ -136,7 +139,7 @@ nav.sticky ul li a,
 nav.sticky .search input::-webkit-input-placeholder {
     color: #fff;
     font-weight: 400;
-}
+} */
 /* !! End Navbar */
 
 
