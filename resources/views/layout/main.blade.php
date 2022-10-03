@@ -50,7 +50,7 @@
 <body>
     <div class="preloader">
         <div class="loading">
-          <img src="img/black.gif" width="230">
+            <img src="img/black.gif" width="230">
         </div>
     </div>
 
@@ -199,7 +199,7 @@
         $(document).ready(function(){
         $(".preloader").fadeOut(3000);
         })
-      </script>
+    </script>
         
     <script>
         AOS.init();

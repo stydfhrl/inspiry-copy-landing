@@ -11,12 +11,12 @@
     transform: rotate(0) scale(0.6);
     opacity: 0;
     transition-property: transform, opacity;
-  }
+}
 /* After animation */
 [data-aos="my-animation"].aos-animate {
     transform: rotate(360deg) scale(1);
     opacity: 1;
-  }
+}
 /* Preload */
 .preloader {
     position: fixed;
@@ -26,14 +26,14 @@
     height: 100%;
     z-index: 9999;
     background-color: rgb(0, 0, 0);
-  }
-  .preloader .loading {
+}
+.preloader .loading {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     font: 14px arial;
-  }
+}
 /* End preload */
 
 /* !! navbar */
