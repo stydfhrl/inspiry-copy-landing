@@ -6,7 +6,17 @@
     scroll-behavior: smooth;
     cursor: default;
 }
-
+/* Before animation*/
+[data-aos="my-animation"] {
+    transform: rotate(0) scale(0.6);
+    opacity: 0;
+    transition-property: transform, opacity;
+  }
+/* After animation */
+[data-aos="my-animation"].aos-animate {
+    transform: rotate(360deg) scale(1);
+    opacity: 1;
+  }
 /* Preload */
 .preloader {
     position: fixed;
