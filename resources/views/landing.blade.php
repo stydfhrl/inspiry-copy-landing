@@ -345,16 +345,16 @@
         <div class="our-client text-white d-flex text-center" style="width: 83rem;background:rgba(0, 0, 0, 0.5);height:300px;margin-left: -3rem;margin-top:5rem">
             <div class="column" style="width: 380px;height:220px;background:rgba(255, 255, 255, 0.137);margin-left: 4.5rem;margin-top:2rem">
             <div class="textnya" style="margin-top:4rem">
-                <h1>150 +</h1>
-                <p>OUR CLIENT</p>
-            <div class="column-line">
+                <h1 id='0101'>150</h1><h2 style="position: relative;top:-4rem; font-size:36px;left:2.9rem">+</h2>
+                <p style="position:relative; top: -3rem">OUR CLIENT</p>
+            <div class="column-line" style="position: relative; top:-3.2rem">
             </div>
             </div>
         </div>
 
         <div class="column" style="width: 380px;height:220px;background:rgba(255, 255, 255, 0.137);margin-left: 1.4rem;margin-top:2rem">
             <div class="textnya" style="margin-top:4rem">
-                <h1>6</h1>
+                <h1 id='0102'>6</h1>
                 <p>PARTNERSHIP</p>
             <div class="column-line"></div>
             </div>
@@ -362,10 +362,10 @@
 
         <div class="column" style="width: 380px;height:220px;background:rgba(255, 255, 255, 0.137);margin-left: 1.4rem;margin-top:2rem">
             <div class="textnya" style="margin-top:4rem">
-                <h1>20 +</h1>
-                <p>RECOMMENDATION LETTER</p>
+                <h1 id='0103'>20 +</h1><h2 style="position: relative;top:-4rem; font-size:36px;left:2.9rem">+</h2>
+                <p style="position:relative; top: -3rem">RECOMMENDATION LETTER</p>
             </div>
-            <div class="column-line">
+            <div class="column-line" style="position: relative; top:-3.2rem">
             </div>
         </div>
         </div>
