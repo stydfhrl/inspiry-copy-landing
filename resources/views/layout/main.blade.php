@@ -56,7 +56,7 @@
 
     <div class="whatsapp-logo">
         <a href="">
-            <i class="fa-brands fa-whatsapp text-white"></i>
+            <i class="fa-brands fa-whatsapp"></i>
         </a>
     </div>
 
@@ -234,9 +234,9 @@
         let text2 = document.getElementById('0102');
         let text3 = document.getElementById('0103');
         const load = () => {
-           animate(text1, 0, 150, 7000);
-           animate(text2, 0, 6, 7000);
-           animate(text3, 0, 20, 7000);
+           animate(text1, 0, 150, 20000);
+           animate(text2, 0, 6, 20000);
+           animate(text3, 0, 20, 20000);
         }
      </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
