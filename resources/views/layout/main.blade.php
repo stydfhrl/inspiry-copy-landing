@@ -60,7 +60,7 @@
         </a>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="" width="30" height="24" class="navbar-brand-img">
@@ -250,11 +250,16 @@
         AOS.init();
     </script>
     <script type="text/javascript">
-        //javascript for navigation bar effect on scroll
-        window.addEventListener("scroll", function () {
-        var nav = document.querySelector("nav");
-        nav.classList.toggle('sticky', window.scrollY > 0);
-        });
+       var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-170px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
     </script>
     <!-- Initialize Swiper -->
     <script>
