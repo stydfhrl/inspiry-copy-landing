@@ -142,7 +142,7 @@
         <div class="img-1 img-hover">
             <img class="img-team" src="{{ asset('img/Pak-Lukman.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
-                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Lukmanul Hakim</h4>
+                <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Lukmanul Hakim</h4>
                 <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%;text-align:center"> OPERATIONAL DIRECTOR</p>
             </div>
         </div>
@@ -150,7 +150,7 @@
         <div class="img-2 img-hover">
             <img class="img-team" src="{{ asset('img/Pak-Sony.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
-                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Marsono Mardi</h4>
+                <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Marsono Mardi</h4>
                 <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%">PROGRAM DEVELOPMENT <br> DIRECTOR</p>
             </div>
         </div>
@@ -158,7 +158,7 @@
         <div class="img-3 img-hover">
             <img class="img-team" src="{{ asset('img/Pak-Asrul.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
-                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Asrul Sani</h4>
+                <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Asrul Sani</h4>
                 <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%;text-align:center">PRESIDENT COMMISIONER</p>
             </div>
         </div>
@@ -166,7 +166,7 @@
         <div class="img-4 img-hover">
             <img class="img-team" src="{{ asset('img/Pak-Tanto.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
-                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Hartanto</h4>
+                <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Hartanto</h4>
                 <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%;text-align:center">PRESIDENT DIRECTOR</p>
             </div>
         </div>
@@ -174,7 +174,7 @@
         <div class="img-5 img-hover">
             <img class="img-team" src="{{ asset('img/Pak-Pri.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
-                <h4 style="text-shadow:2px 1px rgba(80, 80, 80, 0.959);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Supriya Lelana</h4>
+                <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Supriya Lelana</h4>
                 <p style="font-size:15px;margin-left: .1rem;letter-spacing: 1px;width:100%;text-align:center">BOARD OF COMMISSIONER</p>
             </div>
         </div>
@@ -335,10 +335,8 @@
             <div class="btn-contact text-white">
                 <div class="title-btn" style="padding: 10px 30px;">
                     <i class="fa-solid fa-phone-volume" style="transform: rotate(-30deg)"></i>
-                     + 62 21 22178061
+                    + 62 21 22178061
                 </div>
-
-
             </div>
         </div>
         
@@ -373,8 +371,8 @@
     </div>
 </div>
 
-    <!-- Swiper -->
-    <div class="swiper mySwiper">
+<!-- Swiper -->
+<div class="swiper mySwiper">
         <div class="swiper-wrapper">
         <div class="swiper-slide">
             <img src="https://www.inspiryconsultant.com/wp-content/uploads/2022/03/Screen-Shot-2022-02-25-at-07.56.13-235x300.png" alt="">
@@ -416,36 +414,94 @@
         </div>
         </div>
         {{-- <div class="swiper-pagination"></div> --}}
-    </div>
+</div>
 
-    <div class="container-fluid our-partner-logo mt-5 mb-5">
+<div class="container-fluid container-our-partner our-partner-logo mt-5 mb-5">
         <h1>Our Partner</h1>
         <div class="our-partner-img mt-5" style="display: flex; justify-content:center;gap:2rem">
             <div class="colomn-img-our">
                 <img src="img/geslab.png" alt="" width="150px">
-                <p class="text-center mt-4">Association of</br>Indonesian medical</br>and laboratory</br>equipment</br>companies</p>
+                <h2 class="text-center mt-4">Association of</br>Indonesian medical</br>and laboratory</br>equipment</br>companies</h2>
             </div>
             <div class="colomn-img-our">
                 <img src="img/hostpital.jpeg" alt="" width="150px">
-                <p class="text-center mt-4">Indonesian Hospital</br> Association</p>
+                <h2 class="text-center mt-4">Indonesian Hospital</br> Association</h2>
             </div>
             <div class="colomn-img-our">
                 <img src="img/pdhi.png" alt="" width="150px">
-                <p class="text-center mt-4">Indonesian</br>Veterinary</br>Association</p>
+                <h2 class="text-center mt-4">Indonesian</br>Veterinary</br>Association</h2>
             </div>
             <div class="colomn-img-our">
                 <img src="img/ui.png" alt="" width="150px">
-                <p class="text-center mt-4">Faculty of</br>Engineering -</br>Indonesia University</p>
+                <h2 class="text-center mt-4">Faculty of</br>Engineering -</br>Indonesia University</h2>
             </div>
             <div class="colomn-img-our">
                 <img src="img/ipwija.png" alt="" width="150px">
-                <p class="text-center mt-4">Institute of</br>Economic Science</br>IPWIJA</p>
+                <h2 class="text-center mt-4">Institute of</br>Economic Science</br>IPWIJA</h2>
             </div>
             <div class="colomn-img-our" style="margin-top: 2rem">
                 <img src="img/idbi.webp" alt="" width="150px">
-                <p class="text-center mt-4">Indonesian Business</br>Digital Institute</p>
+                <h2 class="text-center mt-4">Indonesian Business</br>Digital Institute</h2>
             </div>
         </div>
             <div class="inline"></div>
-    </div>
+</div>
+
+<div class="container-fluid container-footer">
+        <div class="footer-address">
+            <img src="{{ asset ('img/footer-logo.png')}}" alt="">
+            <div class="footer-address-content">
+                <div class="address-office">
+                    <p> <b>Head Office :</b> </p>
+                    <p> Jl. Alternatif Cibubur CBD Cibubur Ruko Fraser Park FR 02 05 Kota Bekasi 17435 Indonesia </p>
+                    <p> Phone: + 62 21 22178061 </p>
+                </div>
+                <div class="address-marketing">
+                    <p> <b>Marketing Office :</b> </p>
+                    <p> Jl. TB Simatupang Perumahan <br> Tanjung Barat Indah </p>
+                    <p> Jl. Teratai XIII Blok P No.7 Jakarta Selatan 12530 Indonesia </p>
+                    <p> Phone: + 62 21 22178061 </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-map">
+            <h2>Map PT. INSPIRY INDONESIA KONSULTAN</h2>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="500" height="300" id="gmap_canvas" src="https://maps.google.com/maps?q=PT.%20INSPIRY%20INDONESIA%20KONSULTAN&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    {{-- <a href="https://123movies-to.org">123movies</a> --}}
+                    <style>.mapouter{margin-left: auto; margin-right: auto;margin-top: 3vh;position:relative;text-align:right;height:300px;width:500px;}</style>
+                    {{-- <a href="https://www.embedgooglemap.net">google maps embed generator</a> --}}
+                    <style>.gmap_canvas {overflow:hidden;background:none!important;height: 110%;width:500px;}</style>
+                </div>
+            </div>
+        </div>
+        <div class="footer-socmed">
+            <div class="footer-socmed-title">
+            <h2>Follow Us : </h2>
+            </div>
+            <div class="footer-socmed-content">
+                <div class="footer-socmed-btn">
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="footer-socmed-btn">
+                    <a href="">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="footer-socmed-btn">
+                    <a href="">
+                    <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                </div>
+                <div class="footer-socmed-btn">
+                    <a href="">
+                    <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+</div>
 @endsection
