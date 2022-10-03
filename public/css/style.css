@@ -177,6 +177,7 @@ nav.sticky .search input::-webkit-input-placeholder {
     background-color: rgb(145, 143, 143);
     margin-top: 10vh;
     height: 115vh;
+    overflow: hidden;
 }
 .gallery-title h1{
     padding-top: 7vh;
@@ -373,11 +374,11 @@ width: 40vh;
     transition: .5s;
 }
 .culture-card:hover{
-    transform: scale(1.07);
-    border: 1px solid rgba(211, 28, 28, 0.637);
-    background: white;
-    transform: rotate(5deg) scale(1.1);
-    transition: .5s;
+    transform: scale(1.07) !important;
+    border: 1px solid rgba(211, 28, 28, 0.637) !important;
+    background: white !important;
+    transform: rotate(5deg) scale(1.1) !important;
+    transition: .5s !important;
 }
 .culture-card:nth-child(1),
 .culture-card:nth-child(3){
@@ -468,7 +469,7 @@ width: 40vh;
 }
 @keyframes product-card {
     0%,100% {
-        transform: translateY(-25%);
+        transform: translateY(-15%);
     }    
     50% {
         transform: translateY(5%);
@@ -556,12 +557,13 @@ width: 40vh;
 .column:hover .column-line {
     width: 0%;
     transition: .7s;
+    /* animation: columnline .7s; */
 }
 /* @keyframes columnline {
-    0%,100%{
+    0%{
         width:100%;
     }
-    to{
+    100%{
         width:0%;
     }
 } */

@@ -6,7 +6,7 @@
         <h1>GALLERY</h1>
     </div>
     <div class="gallery-card-container">
-        <div class="gallery-card-top">
+        <div class="gallery-card-top" data-aos="fade-right" data-aos-duration="1500">
             <div class="gallery-card">
                 <div class="gallery-img">
                     <img src="img/gallery1.jpeg" alt="">
@@ -40,7 +40,7 @@
                 </div>
             </div>
         </div>
-        <div class="gallery-card-bottom">
+        <div class="gallery-card-bottom" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
             <div class="gallery-card">
                 <div class="gallery-img">
                     <img src="img/gallery5.jpeg" alt="">
@@ -78,9 +78,9 @@
 </div>
 
 <div class="container-fluid container-about-us text-end fw-bold" style="margin-top: 7vh; height:150vh;">
-    <h1 style="font-size: 45px;letter-spacing: 8px;color:red;text-shadow: 2px 1px #ff0000da; font-weight:600; text-shadow:1px 1px 2px black">ABOUT</h1>
-    <h1 style="font-size: 50px;letter-spacing: 8px;text-shadow: 2px 1px #2c2c2cda; font-weight:600; text-shadow:1px 1px 2px black">US</h1>
-    <div class="circlenyaya position-relative mt-4" style="display: flex;gap: .6rem;float:right; margin-right:1rem">
+    <h1 data-aos="zoom-in" data-aos-duration="1000" style="font-size: 45px;letter-spacing: 8px;color:red;text-shadow: 2px 1px #ff0000da; font-weight:600; text-shadow:1px 1px 2px black">ABOUT</h1>
+    <h1 data-aos="zoom-in" data-aos-duration="1000" style="font-size: 50px;letter-spacing: 8px;text-shadow: 2px 1px #2c2c2cda; font-weight:600; text-shadow:1px 1px 2px black">US</h1>
+    <div data-aos="zoom-in" data-aos-duration="1000" class="circlenyaya position-relative mt-4" style="display: flex;gap: .6rem;float:right; margin-right:1rem">
         <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:rgb(0, 0, 0)"></div>
         <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:rgb(0, 0, 0)"></div>
         <div class="circle-1" style="width:6px; height:6px;border-radius:30px;background:rgb(0, 0, 0)"></div>
@@ -92,7 +92,7 @@
         <img src="img/logo.png" alt="" width="300px" class="logo-about" style="position: relative;top:-34rem;right: 48rem">
     </div>
 
-    <div class="text-right text-start position-relative" style="float: right;top:-64rem;">
+    <div class="text-right text-start position-relative" style="float: right;top:-64rem;" data-aos="zoom-in" data-aos-duration="1000">
         <p style=" letter-spacing: .3px;font-weight:400;font-size:18px">INSPIRY INDONESIA CONSULTANT Founded in September 2019 is one of the consulting </br> </p>
         <p style="font-weight:400;font-size:18px;margin-top:-1rem">companies that is present in order to improve the competitiveness of the company which </br></p>
         <p style=" letter-spacing: -.3px;font-weight:400;font-size:18px;margin-top:-1rem">concentrates on productive management, good company quality standards and a strong work</br></p><p style="font-weight:400;font-size:18px;margin-top:-1rem">team.</p> 
@@ -122,9 +122,9 @@
 <div class="container-fluid container-handshake">
     <div class="handshake-overlay">
         <div class="handshake-content">
-            <h3>YOUR</h3>
-            <h3>TRUSTED PARTNER</h3>
-            <div class="handshake-dot">
+            <h3 data-aos="fade-right" data-aos-duration="1000">YOUR</h3>
+            <h3 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">TRUSTED PARTNER</h3>
+            <div class="handshake-dot" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" data-aos-offset="50">
                 <div class="dot-1"></div>
                 <div class="dot-1"></div>
                 <div class="dot-1"></div>
@@ -135,11 +135,11 @@
 
 <div class="container-fluid container-our-team">
     <div class="our-team-title">
-        <h1>OUR TEAM</h1>
+        <h1 data-aos="fade-in" data-aos-duration="1500">OUR TEAM</h1>
     </div>
 
     <div class="our-team-img">
-        <div class="img-1 img-hover">
+        <div class="img-1 img-hover" data-aos="fade-down" data-aos-duration="900" data-aos-offset="300">
             <img class="img-team" src="{{ asset('img/Pak-Lukman.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
                 <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Lukmanul Hakim</h4>
@@ -147,7 +147,7 @@
             </div>
         </div>
 
-        <div class="img-2 img-hover">
+        <div class="img-2 img-hover" data-aos="fade-up" data-aos-duration="900" data-aos-offset="300" data-aos-delay="700">
             <img class="img-team" src="{{ asset('img/Pak-Sony.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
                 <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600">Marsono Mardi</h4>
@@ -155,7 +155,7 @@
             </div>
         </div>
 
-        <div class="img-3 img-hover">
+        <div class="img-3 img-hover" data-aos="fade-down" data-aos-duration="900" data-aos-offset="300">
             <img class="img-team" src="{{ asset('img/Pak-Asrul.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
                 <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Asrul Sani</h4>
@@ -163,7 +163,7 @@
             </div>
         </div>
 
-        <div class="img-4 img-hover">
+        <div class="img-4 img-hover" data-aos="fade-up" data-aos-duration="900" data-aos-offset="300" data-aos-delay="700">
             <img class="img-team" src="{{ asset('img/Pak-Tanto.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
                 <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Hartanto</h4>
@@ -171,7 +171,7 @@
             </div>
         </div>
 
-        <div class="img-5 img-hover">
+        <div class="img-5 img-hover" data-aos="fade-down" data-aos-duration="900" data-aos-offset="300">
             <img class="img-team" src="{{ asset('img/Pak-Pri.png') }}" alt="" width="210px" style="top: -12rem;">
             <div class="textnya mt-5">
                 <h4 style="text-shadow:0 0 10px rgba(0, 0, 0, 0.877);margin-left:.5rem;letter-spacing: 2.4px;font-weight:600; text-align:center">Supriya Lelana</h4>
@@ -187,7 +187,7 @@
             <h3>OUR CULTURE & SOUL</h3>
         </div>
         <div class="culture-card-container">
-            <div class="culture-card">
+            <div class="culture-card" data-aos="fade-right" data-aos-duration="1000">
                 <div class="culture-card-img">
                     <img class="culture-img1" src="{{ asset ('img/respect.png')}}" alt="">
                 </div>
@@ -197,7 +197,7 @@
                 </div>
             </div>
 
-            <div class="culture-card">
+            <div class="culture-card" data-aos="fade-up" data-aos-duration="1000">
                 <div class="culture-card-img">
                     <img class="culture-img1" src="{{ asset ('img/integrity.png')}}" alt="">
                 </div>
@@ -207,7 +207,7 @@
                 </div>
             </div>
 
-            <div class="culture-card">
+            <div class="culture-card" data-aos="fade-left" data-aos-duration="1000">
                 <div class="culture-card-img">
                     <img class="culture-img1" src="{{ asset ('img/innovation.png')}}" alt="">
                 </div>
@@ -315,30 +315,30 @@
 <div class="container-fluid container-solution">
     <div class="solution-overlay">
     <div class="all-solution position-relative" style="padding-left:3.5rem">
-            <div class="text-solution pt-5">
-            <h1 class="text-white" style="font-size: 67px;font-weight:600;text-shadow:2px 3px #000">OUR</h1>
-            <h1 style="color: red;font-size: 50px;font-weight:600;text-shadow:2px 3px #000;letter-spacing: 5px;margin-top:-1.5rem">SOLUTION</h1>
+            <div class="text-solution pt-5" data-aos="fade-up" data-aos-duration="1500">
+                <h1 class="text-white" style="font-size: 67px;font-weight:600;text-shadow:2px 3px #000">OUR</h1>
+                <h1 style="color: red;font-size: 50px;font-weight:600;text-shadow:2px 3px #000;letter-spacing: 5px;margin-top:-1.5rem">SOLUTION</h1>
             </div>
-            <div class="solution-circle">
+            <div class="solution-circle" data-aos="fade-up" data-aos-duration="1500">
                 <div class="circle-1"></div>
                 <div class="circle-1"></div>
                 <div class="circle-1"></div>
             </div>
 
             <div class="content-solution d-flex" style="gap: 4rem;">
-            <div class="text-sulution-1 mt-5 text-white" style="font-size: 17px;">
-                <p style="letter-spacing: .1px;">INSPIRY is here to help entrepreneurs, business owners, and company leaders to maximize all business management</p><p style="margin-top: -1rem"> performance, design and map out the right business strategy, and ultimately be able to improve the company’s financial </p> <p style="margin-top: -1rem;letter-spacing: .9px;">on an ongoing basis. We provide you with all the answers, and strategies and solutions that can bring your </p> <p style="margin-top: -1rem"> company and business to grow faster and better, and are fully scalable and controllable.</p>
+                <div class="text-sulution-1 mt-5 text-white" style="font-size: 17px;" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+                    <p style="letter-spacing: .1px;">INSPIRY is here to help entrepreneurs, business owners, and company leaders to maximize all business management</p><p style="margin-top: -1rem"> performance, design and map out the right business strategy, and ultimately be able to improve the company’s financial </p> <p style="margin-top: -1rem;letter-spacing: .9px;">on an ongoing basis. We provide you with all the answers, and strategies and solutions that can bring your </p> <p style="margin-top: -1rem"> company and business to grow faster and better, and are fully scalable and controllable.</p>
 
-                <p>With the increase in the company’s internal competence and the ability to manage all company resources accompanied by </p> <p style="letter-spacing: .2px; margin-top: -1rem">and speed in responding to the company’s external conditions. Our clients are able to take their company and business</p><p style="margin-top: -1rem">to a level that is more advanced than its previous position and excel in business competition. Client companies also have a</p><p style="margin-top: -1rem">series of solutions and strategies, especially dealing with recession, crisis and decline successfully</p>
-            </div>
+                    <p>With the increase in the company’s internal competence and the ability to manage all company resources accompanied by </p> <p style="letter-spacing: .2px; margin-top: -1rem">and speed in responding to the company’s external conditions. Our clients are able to take their company and business</p><p style="margin-top: -1rem">to a level that is more advanced than its previous position and excel in business competition. Client companies also have a</p><p style="margin-top: -1rem">series of solutions and strategies, especially dealing with recession, crisis and decline successfully</p>
+                </div>
 
-            <div class="btn-contact text-white">
-                <div class="title-btn" style="padding: 10px 30px;">
-                    <i class="fa-solid fa-phone-volume" style="transform: rotate(-30deg)"></i>
-                    + 62 21 22178061
+                <div class="btn-contact text-white">
+                    <div class="title-btn" style="padding: 10px 30px;">
+                        <i class="fa-solid fa-phone-volume" style="transform: rotate(-30deg)"></i>
+                        + 62 21 22178061
+                    </div>
                 </div>
             </div>
-        </div>
         
 
         <div class="our-client text-white d-flex text-center" style="width: 83rem;background:rgba(0, 0, 0, 0.5);height:300px;margin-left: -3rem;margin-top:5rem">
