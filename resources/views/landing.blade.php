@@ -6,7 +6,8 @@
         <h1>GALLERY</h1>
     </div>
     <div class="gallery-card-container">
-        <div class="gallery-card-top">
+        <div class="gallery-card-top" data-aos="fade-left"data-aos-easing="linear"
+        data-aos-duration="400"data-aos-delay="150">
             <div class="gallery-card">
                 <div class="gallery-img">
                     <img src="img/gallery1.jpeg" alt="">
@@ -40,7 +41,8 @@
                 </div>
             </div>
         </div>
-        <div class="gallery-card-bottom">
+        <div class="gallery-card-bottom" data-aos="fade-right"data-aos-easing="linear"
+        data-aos-duration="400"data-aos-delay="300">
             <div class="gallery-card">
                 <div class="gallery-img">
                     <img src="img/gallery5.jpeg" alt="">
@@ -228,7 +230,7 @@
         </div>
 
         <div class="product-card-container">
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-left" data-aos-offset="0">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/accepted.jpg')}}" alt="">
                 </div>
@@ -236,7 +238,7 @@
                     <h6>CERTIFICATION</h6>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-left" data-aos-offset="0">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/training.jpg')}}" alt="">
                 </div>
@@ -244,7 +246,7 @@
                     <h6>TRAINING <br> PROGRAM</h6>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-left" data-aos-offset="0">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/fda.jpg')}}" alt="">
                 </div>
@@ -252,7 +254,7 @@
                     <h6>FDA <br> PROGRAM</h6>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-left" data-aos-offset="0">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/insfenger.png')}}" alt="">
                 </div>
@@ -260,7 +262,7 @@
                     <h6>INSFENGER <br> (CONFERENCE <br> ARRANGER)</h6>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-left" data-aos-offset="0">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/opspiry.jpg')}}" alt="">
                 </div>
@@ -268,7 +270,8 @@
                     <h6>OPSPIRY <br> (OPERATING <br> MANAGEMENT <br> SYSTEM)</h6>
                 </div>
             </div>
-            <div class="product-card">
+            
+            <div class="product-card" data-aos="fade-right">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/legspiry.jpg')}}" alt="">
                 </div>
@@ -276,7 +279,7 @@
                     <h6>LEGSPIRY <br> (LEGAL <br> CONSULTANT)</h6>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-right">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/company.jpg')}}" alt="">
                 </div>
@@ -284,7 +287,7 @@
                     <h6>COMPANY <br> LICENCE</h6>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-right">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/imagery.jpg')}}" alt="">
                 </div>
@@ -292,7 +295,7 @@
                     <h6>IMAGERY <br> (BRAND <br> BUILDER)</h6>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-right">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/inssearch.jpg')}}" alt="">
                 </div>
@@ -300,7 +303,7 @@
                     <h6>INSSEARCH <br> (HEAD <br> HUNTER)</h6>
                 </div>
             </div>
-            <div class="product-card">
+            <div class="product-card" data-aos="fade-right">
                 <div class="product-card-img">
                     <img class="product-img1" src="{{ asset ('img/instrainment.jpg')}}" alt="">
                 </div>

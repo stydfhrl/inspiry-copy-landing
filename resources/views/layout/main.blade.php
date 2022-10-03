@@ -36,13 +36,18 @@
 
     {{-- icon --}}
     <script src="https://kit.fontawesome.com/1271dcdccb.js" crossorigin="anonymous"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- AOS Animated -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Landing</title>
 </head>
 <body>
+    <div class="preloader">
+        <div class="loading">
+          <img src="img/black.gif" width="230">
+        </div>
+    </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
@@ -184,6 +189,12 @@
 
     {{-- AOS animated --}}
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(".preloader").fadeOut(3000);
+        })
+      </script>
+        
     <script>
         AOS.init();
     </script>
