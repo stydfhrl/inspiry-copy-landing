@@ -753,3 +753,35 @@ object-fit: cover;
     text-decoration: none;
 }
 /* !! end footer */
+
+/* !! whatsapp logo */
+.whatsapp-logo{
+	position:fixed;
+	width:3.1vw;
+	height:3.1vw;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+    border: 1px solid white;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	/* box-shadow: 2px 2px 3px #999; */
+    z-index:100;
+    transition: .4s;
+    cursor: pointer;
+}
+.whatsapp-logo:hover{
+    transform: translateY(-2vh);
+} 
+/* .whatsapp-logo{
+    width: 3vw;
+    height: 3vw;
+    background: #25D366;
+    border-radius: 100px;
+    border: 1px solid grey;
+    margin-left: -7vw;
+    transition: .4s;
+    position: absolute;
+} */
+/* !! End whatsapp logo */

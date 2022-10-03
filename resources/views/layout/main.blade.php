@@ -54,6 +54,12 @@
         </div>
     </div>
 
+    <div class="whatsapp-logo">
+        <a href="">
+            <i class="fa-brands fa-whatsapp text-white"></i>
+        </a>
+    </div>
+
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -236,7 +242,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         $(document).ready(function(){
-        $(".preloader").fadeOut(3000);
+        $(".preloader").fadeOut(1000);
         })
     </script>
         
