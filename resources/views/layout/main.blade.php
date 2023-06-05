@@ -3,7 +3,7 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- My style -->
     <link rel="stylesheet" href="css/style.css">
@@ -31,9 +31,7 @@
 
     <link
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
     <!-- Bootstrap CSS -->
@@ -48,7 +46,7 @@
     <title>Landing</title>
 </head>
 <body onload="load()">
-    <div class="preloader">
+    <div class="container-fluid preloader">
         <div class="loading">
             <img src="img/black.gif" width="230">
         </div>
@@ -60,7 +58,7 @@
         </a>
     </div>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" id="navbar">
+    <nav class="container-fluid navbar navbar-expand" id="navbar">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="img/logo.png" alt="" width="30" height="24" class="navbar-brand-img">
@@ -130,7 +128,7 @@
         </div>
     </nav>
 
-    <header class="v-header container">
+    <header class="v-header container-fluid">
         <div class="video-header">
             <img src="{{ asset('town.jpg') }}" alt="">
         </div>
@@ -201,7 +199,7 @@
     {{-- AOS animated --}}
     <script>
         function animate(obj, initVal, lastVal, duration) {
-           let startTime = null;
+            let startTime = null;
   
         //get the current timestamp and assign it to the currentTime variable
         let currentTime = Date.now();
@@ -234,10 +232,11 @@
         let text2 = document.getElementById('0102');
         let text3 = document.getElementById('0103');
         const load = () => {
-           animate(text1, 0, 150, 20000);
-           animate(text2, 0, 6, 20000);
-           animate(text3, 0, 20, 20000);
+            animate(text1, 0, 150, 20000);
+            animate(text2, 0, 6, 20000);
+            animate(text3, 0, 20, 20000);
         }
+
      </script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -250,13 +249,13 @@
         AOS.init();
     </script>
     <script type="text/javascript">
-       var prevScrollpos = window.pageYOffset;
+        var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
         if (prevScrollpos > currentScrollPos) {
             document.getElementById("navbar").style.top = "0";
         } else {
-            document.getElementById("navbar").style.top = "-170px";
+            document.getElementById("navbar").style.top = "-30vh";
         }
         prevScrollpos = currentScrollPos;
         }
